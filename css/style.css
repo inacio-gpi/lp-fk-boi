@@ -1,7 +1,7 @@
 /*!
+ * Copyright Guilherme Pereira Inacio.
  * Bootstrap v4.2.1 (https://getbootstrap.com/)
  * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
  */
 
  @font-face {
@@ -10112,9 +10112,21 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   color: #00ff6eff;
   font-weight: bold;
   line-height: 36px;
+  font-size: 34px;
   letter-spacing: 2px;
 }
+.section-security p {
+  font-size: 22px;
+}
 
+@media (max-width: 768px) {
+  .section-security h2 {
+    font-size: 32px;
+  }
+  .section-security p {
+    font-size: 18px;
+  }
+}
 @media (max-width: 767.98px) {
   .section-security .img-boi {
     position: unset;
@@ -10204,7 +10216,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   -webkit-transform: none;
   -ms-transform: none;
   transform: none;
-  background-color: #fff;
+  /* background-color: #00ff6e; */
+  background-color: #dddddd;
   border-radius: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -10494,13 +10507,18 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   letter-spacing: 2px;
 }
 
+.section-who-is  h2 {
+  font-weight: 600;
+  font-size: 38px;
+
+}
 .section-who-is .who-is-fk h2 {
-  font-size: 40px;
+  font-size: 44px;
   font-weight: 600;
 }
 
 .section-who-is .who-is-fk p {
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .section-who-is .row-values .col-md-4 {
@@ -10578,7 +10596,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .section-explanation .img-explanation {
-  margin-bottom: -10%;
+  width: 100%;
+  max-width: 700px;
 }
 
 .section-explanation img {
@@ -10601,6 +10620,9 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   }
   .section-explanation .img-celular {
     width: 145%;
+  }
+  .section-explanation .img-explanation {
+    margin-bottom: -35px;
   }
 }
 

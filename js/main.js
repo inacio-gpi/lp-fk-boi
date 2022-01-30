@@ -1,3 +1,8 @@
+/**
+ * Author: Guilherme Pereira Inacio
+ * Author URI: https://psiu.dev/
+ * Author instagram: @inacio.gpi
+ */
 (function ($) {
   'use strict';
 
@@ -7,7 +12,7 @@
       if ($('#loader').length > 0) {
         $('#loader').removeClass('loading');
       }
-    }, 1);
+    }, 300);
   };
   loader();
 
@@ -38,7 +43,7 @@
     });
   };
   mask();
-  
+
   var contentWayPoint = function () {
     $('.div-animate').waypoint(
       function (direction) {

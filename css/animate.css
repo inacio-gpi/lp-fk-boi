@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
 /*!
-Animate.css - http://daneden.me/animate
-Licensed under the MIT license - http://opensource.org/licenses/MIT
-*/
+ * Author: Guilherme Pereira Inacio
+ * Author URI: https://psiu.dev/
+ * Author instagram: @inacio.gpi
+ * Animate.css - http://daneden.me/animate
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ */
 
 .animated {
   -webkit-animation-duration: 1s;
@@ -11,12 +14,14 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
 .animated-fast {
   -webkit-animation-duration: .2s;
   animation-duration: .2s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
 .slow-animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -50,8 +55,8 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
   from, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   40%, 43% {
@@ -69,8 +74,8 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
   }
 
   90% {
-    -webkit-transform: translate3d(0,-4px,0);
-    transform: translate3d(0,-4px,0);
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
   }
 }
 
@@ -78,8 +83,8 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
   from, 20%, 53%, 80%, to {
     -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
     animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    -webkit-transform: translate3d(0,0,0);
-    transform: translate3d(0,0,0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
   }
 
   40%, 43% {
@@ -97,8 +102,8 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
   }
 
   90% {
-    -webkit-transform: translate3d(0,-4px,0);
-    transform: translate3d(0,-4px,0);
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
   }
 }
 

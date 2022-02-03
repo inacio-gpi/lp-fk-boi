@@ -67,7 +67,6 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: MyriadPro;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -11215,13 +11214,14 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 
 @media(max-width:991px) {
   #home-seguro form {
-    padding: 30px
+    padding: 30px;
+    padding-bottom: 55px;
   }
 }
 
 #home-seguro form .form-group {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   /* margin-bottom: 50px; */
 }
 
@@ -11515,8 +11515,10 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
 }
 
 .section-contact img {
-  width: 100%;
+  width: auto;
   max-width: 100%;
+  margin: 0 auto;
+  display: flex;
 }
 
 .section-map img {

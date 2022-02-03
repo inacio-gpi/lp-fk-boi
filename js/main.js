@@ -3,7 +3,7 @@
  * Author URI: https://psiu.dev/
  * Author instagram: @inacio.gpi
  */
-(function ($) {
+jQuery(function ($) {
   'use strict';
 
   // loader
@@ -92,4 +92,22 @@
 
   $('[data-toggle="popover"]').popover();
   $('[data-toggle="tooltip"]').tooltip();
-})(jQuery);
+
+  var onePageNavigation = function () {
+    // var navToggler = $(".site-menu-toggle");
+    $("a[href^='#']:not([href='#'])").click(function (e) {
+      e.preventDefault();
+
+      var hash = this.hash;
+
+      $('html, body').animate(
+        {
+          scrollTop: $(hash).offset().top - 30,
+        },
+        1000,
+        'easeInOutExpo'
+      );
+    });
+  };
+  onePageNavigation();
+});
